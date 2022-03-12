@@ -1,6 +1,8 @@
 import logging
 import sys
 
+from tendo import singleton
+
 logger = logging.getLogger(__name__)
 
 
@@ -24,10 +26,13 @@ def setup_logger():
 if __name__ == "__main__":
     try:
         setup_logger()
+        me = singleton.SingleInstance()
         main()
 
     except KeyboardInterrupt:
         logger.info("Caught keyboard interrupt")
+    except singleton.SingleInstanceException:
+        logger.info("The program was already running")
     except Exception as err:
         logger.error(err, exc_info=True)
     finally:
