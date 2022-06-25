@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ["__main__.py"],
+    ["main.py"],
     pathex=[],
     binaries=[],
     datas=[],
@@ -29,7 +29,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name="__main__",  # Change this to your Project name
+    name="main",  # Change this to your Project name
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
