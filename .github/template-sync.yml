@@ -1,6 +1,7 @@
 dependents:
 
 additional:
+- "downloads-folder-watcher"
 
 files:
   - ".gitignore"  # include
