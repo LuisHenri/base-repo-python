@@ -1,9 +1,6 @@
 dependents:
-  - "*" # include
 
 additional:
-  - "another-one-*" # include
-  - "!not-this-*" # exclude
 
 files:
   - ".gitignore"  # include
