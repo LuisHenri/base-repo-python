@@ -1,6 +1,8 @@
 name: template-sync
 
 on:
+  push:
+
   pull_request: # run on pull requests to preview changes before applying
 
   workflow_run: # setup this workflow as a dependency of others
