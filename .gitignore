@@ -16,4 +16,3 @@ licenses/
 # Add your folders to ignore here
 config/*-track.json
 .coverage
-.templateversionrc
