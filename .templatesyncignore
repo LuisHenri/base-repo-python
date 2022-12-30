@@ -6,3 +6,4 @@ SECURITY.md
 docker-compose.yml
 Makefile
 .templatesyncignore
+.github/.templatesyncignore
