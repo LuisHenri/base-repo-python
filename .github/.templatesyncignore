@@ -1,9 +1,13 @@
 .all-contributorsrc
 .github/dependabot.yml
 README.md
+LICENSE
 Dockerfile
 SECURITY.md
 docker-compose.yml
 Makefile
 .templatesyncignore
 .github/.templatesyncignore
+project_name/__init__.py
+project_name/__main__.py
+main.spec
